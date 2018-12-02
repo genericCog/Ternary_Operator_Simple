@@ -13,6 +13,9 @@ The condition is what is actually being testing. The result of the condition sho
 A ? question mark separates the conditional from the true value. Anything between the ? and the : is what is executed if the condition evaluates to true. 
 
 Finally a : colon. If the condition evaluates to false, the code after the colon is executed.
+___
+## JavaScript Example
+
 ```javascript
 /*
    An example of a ternary operator
