@@ -24,7 +24,7 @@ let firstName = "Smith";
 UserName(firstName);
 
 function UserName(firstName){
-  firstName= firstName == "John" ? document.getElementById("label_user_name").innerHTML ="Hello John!" :document.getElementById("label_user_name").innerHTML ="Hello Human!";
+  firstName = firstName == "John" ? alert("Hello John!") : alert("Hello Human!");
 }//END function UserName()
 ```
 
