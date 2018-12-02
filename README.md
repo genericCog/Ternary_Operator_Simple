@@ -1,4 +1,4 @@
-# Ternary Operator Simple
+# Ternary Operator ### (Simple)
 A simple conditional ternary operator in JavaScript. 
 
 The ternary operator is written in the following manner  
