@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Terary Operator Simple</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terary Operator Simple</title>
 </head>
 
 <body>
-<label id="label_grade"></label>
-<br>
-<label id="demo"></label>
+  <br>
+  <label id="label_user_name"></label>
+   <br>
 </body>
+   
 <script>
+  /*
+     An example of a ternary operator
+     the UserName() function accept a first name parameter
+     the firstName is tested to determine if it is a specific name
+     text on the screen is updated
+  */
 /*
    An example of a ternary operator
-   the UserName() function accept a first name parameter
-   the firstName is tested to determine if it is a specific name
+   the user is prompted for input
+   the DisplayUserName() function accepts a first name parameter
+   the firstName variable is tested to determine if it is specific
    text on the screen is updated
 */
-let firstName = "Smith";
-UserName(firstName);
 
-function UserName(firstName){
-  firstName= firstName == "John" ? document.getElementById("label_user_name").innerHTML ="Hello John!" :document.getElementById("label_user_name").innerHTML ="Hello Human!";
-}//END function UserName()
+let firstName = GetUserInput();
+DisplayUserName(firstName);
+
+function DisplayUserName(firstName) {
+  firstName =
+    firstName == "John"
+      ? (document.getElementById("label_user_name").innerHTML = "Hello John!")
+      : (document.getElementById("label_user_name").innerHTML = "Hello " + firstName + "!");
+} //END UserName()
+
+function GetUserInput() {
+  var userInput = prompt("Enter your name : ");
+  return userInput;
+} //END GetUserInput()
 </script>
+
 </html>
