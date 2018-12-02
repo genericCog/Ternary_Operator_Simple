@@ -5,7 +5,7 @@ View the [CodePen example][1].
 
 The ternary operator is written in the following manner  
 
-...## condition ? value if true : value if false
+>condition ? value if true : value if false
 
 
 The condition is what is actually being testing. The result of the condition should be true/false.
