@@ -14,7 +14,7 @@ A ? question mark separates the conditional from the true value. Anything betwee
 
 Finally a : colon. If the condition evaluates to false, the code after the colon is executed.
 
-'''
+'''javascript
 /*
    An example of a ternary operator
    the UserName() function accept a first name parameter
