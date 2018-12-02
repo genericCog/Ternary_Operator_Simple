@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terary Operator Simple</title>
+</head>
+
+<body>
+<label id="label_grade"></label>
+<br>
+<label id="demo"></label>
+</body>
+<script>
+/*
+   An example of a ternary operator
+   the UserName() function accept a first name parameter
+   the firstName is tested to determine if it is a specific name
+   text on the screen is updated
+*/
+let firstName = "Smith";
+UserName(firstName);
+
+function UserName(firstName){
+  firstName= firstName == "John" ? document.getElementById("label_user_name").innerHTML ="Hello John!" :document.getElementById("label_user_name").innerHTML ="Hello Human!";
+}//END function UserName()
+</script>
+</html>
